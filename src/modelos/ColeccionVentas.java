@@ -38,4 +38,8 @@ public class ColeccionVentas {
         }
         return false;
     }
+    
+    public int SubTotal(Venta venta){
+        return venta.getCantidad() * venta.getPrecio();
+    }
 }
